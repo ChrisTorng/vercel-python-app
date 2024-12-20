@@ -13,3 +13,13 @@ set FLASK_APP=index.py
 set FLASK_ENV=development
 flask run
 ```
+
+[Step-by-Step Guide to Deploying a Project to Vercel using GitHub Actions for Free - DEV Community](https://dev.to/tobidelly/step-by-step-guide-to-deploying-a-project-to-vercel-using-github-actions-for-free-l61)
+
+- Publish to GitHub
+- [Vercel](https://vercel.com/christorngs-projects) - Add New.. - Project
+- vercel-python-app - Import Project
+- Framework Preset: Other
+- Deploy
+- Continue to Dashboard
+- 

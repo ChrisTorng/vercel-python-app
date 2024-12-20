@@ -14,6 +14,13 @@ set FLASK_ENV=development
 flask run
 ```
 
+[Test Page](http://127.0.0.1:5000/static/index.html)
+
+For Deploy to Vercel:
+
+- Add vercel.json
+- Add requirements.txt
+
 [Step-by-Step Guide to Deploying a Project to Vercel using GitHub Actions for Free - DEV Community](https://dev.to/tobidelly/step-by-step-guide-to-deploying-a-project-to-vercel-using-github-actions-for-free-l61)
 
 - Publish to GitHub
@@ -22,4 +29,3 @@ flask run
 - Framework Preset: Other
 - Deploy
 - Continue to Dashboard
-- 

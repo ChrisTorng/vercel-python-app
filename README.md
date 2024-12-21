@@ -14,7 +14,7 @@ set FLASK_ENV=development
 flask run
 ```
 
-[Test Page](http://127.0.0.1:5000/static/index.html)
+[Test Page](http://127.0.0.1:5000/)
 
 For Deploy to Vercel:
 
@@ -29,3 +29,4 @@ For Deploy to Vercel:
 - Framework Preset: Other
 - Deploy
 - Continue to Dashboard
+- [Test Page](https://vercel-python-app-sepia.vercel.app/)

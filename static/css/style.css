@@ -15,3 +15,9 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+p {
+    color: #666;
+    font-size: 18px;
+    margin: 20px 0;
+}

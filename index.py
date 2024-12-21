@@ -1,10 +1,17 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, make_response
 
 app = Flask(__name__)
+visit_count = 0
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    global visit_count
+    visit_count += 1
+    response = make_response(render_template('index.html', count=visit_count))
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    response.headers['Pragma'] = 'no-cache'
+    response.headers['Expires'] = '0'
+    return response
 
 @app.route('/home')
 def home():
